@@ -1,5 +1,5 @@
-application: tiddlywiki-gae
-version: 2016-12-22
+application: dsouza-wiki
+version: 2016-01-22
 runtime: go
 api_version: go1
 
