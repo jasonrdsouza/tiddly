@@ -14,9 +14,9 @@ import (
 	"net/url"
 	"strings"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/datastore"
-	"google.golang.org/appengine/user"
+	"appengine"
+	"appengine/datastore"
+	"appengine/user"
 )
 
 // Re Authentication

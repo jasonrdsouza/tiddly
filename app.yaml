@@ -1,9 +1,11 @@
-application: dsouza-wiki
-version: 2016-01-22
 runtime: go
 api_version: go1
 
 handlers:
+- url: /.well-known/acme-challenge/(.*)
+  mime_type: text/plain
+  static_files: acme-challenge/\1
+  upload: acme-challenge/.*
 - url: /.*
   login: admin
   secure: always
