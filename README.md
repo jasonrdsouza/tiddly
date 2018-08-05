@@ -40,9 +40,9 @@ tiddler content on demand.
 
 Create an Google App Engine standard app and deploy with
 
-	appcfg.py -A your-app -V your-version update .
+	gcloud --project dsouza-wiki app deploy
 
-Then visit https://your-app.appspot.com/. As noted above, only admins
+Then visit https://wiki.dsouza.io/. As noted above, only admins
 will have access to the content.
 
 ## Plugins
